@@ -1,0 +1,6 @@
+{
+  "parent": "block/cube_all",
+  "textures": {
+    "all": "mtiwta:block/polished_diorite_bricks"
+  }
+}

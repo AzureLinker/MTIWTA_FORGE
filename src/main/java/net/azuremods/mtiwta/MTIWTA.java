@@ -1,6 +1,8 @@
 package net.azuremods.mtiwta;
 
 import com.mojang.logging.LogUtils;
+import net.azuremods.mtiwta.block.ModBlocks;
+import net.azuremods.mtiwta.item.ModItems;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -19,6 +21,8 @@ public class MTIWTA
     public MTIWTA()
     {
         IEventBus modEventBus = FMLJavaModLoadingContext.get().getModEventBus();
+        ModItems.register(modEventBus);
+        ModBlocks.register(modEventBus);
         modEventBus.addListener(this::commonSetup);
         MinecraftForge.EVENT_BUS.register(this);
     }
