@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 1,
+  "ingredient": {
+    "item": "mtiwta:polished_diorite_bricks"
+  },
+  "result": "mtiwta:polished_diorite_bricks_stairs"
+}

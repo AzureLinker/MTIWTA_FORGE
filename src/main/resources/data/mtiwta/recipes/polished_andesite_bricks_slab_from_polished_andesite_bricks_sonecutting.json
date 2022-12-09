@@ -1,0 +1,8 @@
+{
+  "type": "minecraft:stonecutting",
+  "count": 2,
+  "ingredient": {
+    "item": "mtiwta:polished_andesite_bricks"
+  },
+  "result": "mtiwta:polished_andesite_bricks_slab"
+}

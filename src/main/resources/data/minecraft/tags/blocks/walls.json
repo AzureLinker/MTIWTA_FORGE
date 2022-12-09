@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "mtiwta:polished_granite_bricks_wall",
+    "mtiwta:polished_granite_wall",
+    "mtiwta:polished_andesite_bricks_wall",
+    "mtiwta:polished_andesite_wall",
+    "mtiwta:polished_diorite_bricks_wall",
+    "mtiwta:polished_diorite_wall"
+  ]
+}

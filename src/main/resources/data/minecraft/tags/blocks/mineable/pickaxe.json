@@ -2,7 +2,19 @@
   "replace": false,
   "values": [
     "mtiwta:polished_granite_bricks",
+    "mtiwta:polished_granite_bricks_stairs",
+    "mtiwta:polished_granite_bricks_slab",
+    "mtiwta:polished_granite_bricks_wall",
+    "mtiwta:polished_granite_wall",
     "mtiwta:polished_andesite_bricks",
-    "mtiwta:polished_diorite_bricks"
+    "mtiwta:polished_andesite_bricks_stairs",
+    "mtiwta:polished_andesite_bricks_slab",
+    "mtiwta:polished_andesite_bricks_wall",
+    "mtiwta:polished_andesite_wall",
+    "mtiwta:polished_diorite_bricks",
+    "mtiwta:polished_diorite_bricks_stairs",
+    "mtiwta:polished_diorite_bricks_slab",
+    "mtiwta:polished_diorite_bricks_wall",
+    "mtiwta:polished_diorite_wall"
   ]
 }

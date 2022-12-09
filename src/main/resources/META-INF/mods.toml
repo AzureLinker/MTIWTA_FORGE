@@ -29,7 +29,7 @@ displayName="MTIWTA - Miscellaneous Things I Want to Add" #mandatory
 # A file name (in the root of the mod JAR) containing a logo for display
 logoFile="examplemod.png" #optional
 # A text field displayed in the mod UI
-credits="Thanks for this example mod goes to Java" #optional
+credits="ZianU - coding, drawing, and other things. Vanilla Tweaks - some textures" #optional
 # A text field displayed in the mod UI
 authors="AzureMods" #optional
 # Display Test controls the display for your mod in the server connection screen
@@ -42,11 +42,7 @@ authors="AzureMods" #optional
 
 # The description text for the mod (multi line!) (#mandatory)
 description='''
-This is a long form description of the mod. You can write whatever you want here
-
-Have some lorem ipsum.
-
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed mollis lacinia magna. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Sed sagittis luctus odio eu tempus. Interdum et malesuada fames ac ante ipsum primis in faucibus. Pellentesque volutpat ligula eget lacus auctor sagittis. In hac habitasse platea dictumst. Nunc gravida elit vitae sem vehicula efficitur. Donec mattis ipsum et arcu lobortis, eleifend sagittis sem rutrum. Cras pharetra quam eget posuere fermentum. Sed id tincidunt justo. Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+MTIWTA is a small mod for Minecraft, that add some Miscellaneous things, such as new advancements, new blocks, new items, etc. At the moment mod is very small, and don't have a wiki, but author have a big plans for this mod.
 '''
 # A dependency - use the . to indicate dependency for a specific modid. Dependencies are optional.
 [[dependencies.mtiwta]] #optional

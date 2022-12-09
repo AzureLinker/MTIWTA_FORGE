@@ -1,7 +1,19 @@
 {
   "block.mtiwta.polished_granite_bricks": "Polished Granite Bricks",
+  "block.mtiwta.polished_granite_bricks_stairs": "Polished Granite Bricks Stairs",
+  "block.mtiwta.polished_granite_bricks_slab": "Polished Granite Bricks Slab",
+  "block.mtiwta.polished_granite_bricks_wall": "Polished Granite Bricks Wall",
+  "block.mtiwta.polished_granite_wall": "Polished Granite Wall",
   "block.mtiwta.polished_andesite_bricks": "Polished Andesite Bricks",
+  "block.mtiwta.polished_andesite_bricks_stairs": "Polished Andesite Bricks Stairs",
+  "block.mtiwta.polished_andesite_bricks_slab": "Polished Andesite Bricks Slab",
+  "block.mtiwta.polished_andesite_bricks_wall": "Polished Andesite Bricks Wall",
+  "block.mtiwta.polished_andesite_wall": "Polished Andesite Wall",
   "block.mtiwta.polished_diorite_bricks": "Polished Diorite Bricks",
+  "block.mtiwta.polished_diorite_bricks_stairs": "Polished Diorite Bricks Stairs",
+  "block.mtiwta.polished_diorite_bricks_slab": "Polished Diorite Bricks Slab",
+  "block.mtiwta.polished_diorite_bricks_wall": "Polished Diorite Bricks Wall",
+  "block.mtiwta.polished_diorite_wall": "Polished Diorite Wall",
 
   "itemGroup.mtiwta_tab": "MTIWTA"
 }
