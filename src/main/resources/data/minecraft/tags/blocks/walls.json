@@ -6,6 +6,12 @@
     "mtiwta:polished_andesite_bricks_wall",
     "mtiwta:polished_andesite_wall",
     "mtiwta:polished_diorite_bricks_wall",
-    "mtiwta:polished_diorite_wall"
+    "mtiwta:polished_diorite_wall",
+    "mtiwta:tuff_wall",
+    "mtiwta:polished_tuff_wall",
+    "mtiwta:polished_tuff_bricks_wall",
+    "mtiwta:calcite_wall",
+    "mtiwta:polished_calcite_wall",
+    "mtiwta:polished_calcite_bricks_wall"
   ]
 }

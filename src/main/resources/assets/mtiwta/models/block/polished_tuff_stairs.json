@@ -1,0 +1,8 @@
+{
+  "parent": "minecraft:block/stairs",
+  "textures": {
+    "bottom": "mtiwta:block/polished_tuff",
+    "side": "mtiwta:block/polished_tuff",
+    "top": "mtiwta:block/polished_tuff"
+  }
+}
