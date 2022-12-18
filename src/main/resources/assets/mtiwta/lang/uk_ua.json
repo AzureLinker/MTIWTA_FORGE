@@ -36,6 +36,16 @@
   "block.mtiwta.polished_calcite_bricks_stairs": "Сходи з Кальцитових Цеглин",
   "block.mtiwta.polished_calcite_bricks_slab": "Плита з Кальцитових Цеглин",
   "block.mtiwta.polished_calcite_bricks_wall": "Стіна з Кальцитових Цеглин",
+  "block.mtiwta.spruce_ladder": "Ялинова Дробина",
+  "block.mtiwta.birch_ladder": "Березова Дробина",
+  "block.mtiwta.jungle_ladder": "Тропічна Дробина",
+  "block.mtiwta.acacia_ladder": "Дробина з Акації",
+  "block.mtiwta.dark_oak_ladder": "Дробина з Темного Дуба",
+  "block.mtiwta.mangrove_ladder": "Мангрова Дробина",
+  "block.mtiwta.crimson_ladder": "Багряна Дробина",
+  "block.mtiwta.warped_ladder": "Спотворена Дробина",
+  "block.mtiwta.iron_ladder": "Залізна Дробина",
+  "block.mtiwta.chain_ladder": "Дробина з Ланцюгів",
 
   "itemGroup.mtiwta_tab": "MTIWTA"
 }
