@@ -36,6 +36,16 @@
   "block.mtiwta.polished_calcite_bricks_stairs": "Ступеньки из Кальцитовых Кирпичей",
   "block.mtiwta.polished_calcite_bricks_slab": "Плита из Кальцитовых Кирпичей",
   "block.mtiwta.polished_calcite_bricks_wall": "Стена из Кальцитовых Кирпичей",
+  "block.mtiwta.spruce_ladder": "Еловая Лестница",
+  "block.mtiwta.birch_ladder": "Берёзовая Лестница",
+  "block.mtiwta.jungle_ladder": "Джунглевая Лестница",
+  "block.mtiwta.acacia_ladder": "Акациевая Лестница",
+  "block.mtiwta.dark_oak_ladder": "Лестница из Тёмного Дуба",
+  "block.mtiwta.mangrove_ladder": "Мангровая Лестница",
+  "block.mtiwta.crimson_ladder": "Багровая лестница",
+  "block.mtiwta.warped_ladder": "Искажённая Лестница",
+  "block.mtiwta.iron_ladder": "Железная Лестница",
+  "block.mtiwta.chain_ladder": "Цепная Лестница",
 
   "itemGroup.mtiwta_tab": "MTIWTA"
 }

@@ -36,6 +36,16 @@
   "block.mtiwta.polished_calcite_bricks_stairs": "Polished Calcite Bricks Stairs",
   "block.mtiwta.polished_calcite_bricks_slab": "Polished Calcite Bricks Slab",
   "block.mtiwta.polished_calcite_bricks_wall": "Polished Calcite Bricks Wall",
+  "block.mtiwta.spruce_ladder": "Spruce Ladder",
+  "block.mtiwta.birch_ladder": "Birch Ladder",
+  "block.mtiwta.jungle_ladder": "Jungle Ladder",
+  "block.mtiwta.acacia_ladder": "Acacia Ladder",
+  "block.mtiwta.dark_oak_ladder": "Dark Oak Ladder",
+  "block.mtiwta.mangrove_ladder": "Mangrove Ladder",
+  "block.mtiwta.crimson_ladder": "Crimson Ladder",
+  "block.mtiwta.warped_ladder": "Warped Ladder",
+  "block.mtiwta.iron_ladder": "Iron Ladder",
+  "block.mtiwta.chain_ladder": "Chain Ladder",
 
   "itemGroup.mtiwta_tab": "MTIWTA"
 }

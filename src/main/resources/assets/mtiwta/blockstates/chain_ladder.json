@@ -1,0 +1,19 @@
+{
+  "variants": {
+    "facing=east": {
+      "model": "mtiwta:block/chain_ladder",
+      "y": 90
+    },
+    "facing=north": {
+      "model": "mtiwta:block/chain_ladder"
+    },
+    "facing=south": {
+      "model": "mtiwta:block/chain_ladder",
+      "y": 180
+    },
+    "facing=west": {
+      "model": "mtiwta:block/chain_ladder",
+      "y": 270
+    }
+  }
+}

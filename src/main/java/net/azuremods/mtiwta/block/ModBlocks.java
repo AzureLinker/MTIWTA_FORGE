@@ -72,9 +72,6 @@ public class ModBlocks {
             ()-> new WallBlock(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(1.5F, 6.0F).requiresCorrectToolForDrops().sound(SoundType.STONE)), ModCreativeModeTab.MTIWTA_TAB);
 
-    public static final RegistryObject<Block> POLISHED_TUFF = registerBlock("polished_tuff",
-            ()-> new Block(BlockBehaviour.Properties.of(Material.STONE)
-                    .strength(1.5F, 6.0F).requiresCorrectToolForDrops().sound(SoundType.TUFF)), ModCreativeModeTab.MTIWTA_TAB);
     public static final RegistryObject<Block> TUFF_STAIRS = registerBlock("tuff_stairs",
             ()-> new StairBlock(() -> ModBlocks.POLISHED_TUFF.get().defaultBlockState() ,
                     BlockBehaviour.Properties.of(Material.STONE).strength(1.5F, 6.0F).requiresCorrectToolForDrops().sound(SoundType.TUFF)),
@@ -85,7 +82,7 @@ public class ModBlocks {
     public static final RegistryObject<Block> TUFF_WALL = registerBlock("tuff_wall",
             ()-> new WallBlock(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(1.5F, 6.0F).requiresCorrectToolForDrops().sound(SoundType.TUFF)), ModCreativeModeTab.MTIWTA_TAB);
-    public static final RegistryObject<Block> POLISHED_TUFF_BRICKS = registerBlock("polished_tuff_bricks",
+    public static final RegistryObject<Block> POLISHED_TUFF = registerBlock("polished_tuff",
             ()-> new Block(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(1.5F, 6.0F).requiresCorrectToolForDrops().sound(SoundType.TUFF)), ModCreativeModeTab.MTIWTA_TAB);
     public static final RegistryObject<Block> POLISHED_TUFF_STAIRS = registerBlock("polished_tuff_stairs",
@@ -98,6 +95,9 @@ public class ModBlocks {
     public static final RegistryObject<Block> POLISHED_TUFF_WALL = registerBlock("polished_tuff_wall",
             ()-> new WallBlock(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(1.5F, 6.0F).requiresCorrectToolForDrops().sound(SoundType.TUFF)), ModCreativeModeTab.MTIWTA_TAB);
+    public static final RegistryObject<Block> POLISHED_TUFF_BRICKS = registerBlock("polished_tuff_bricks",
+            ()-> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(1.5F, 6.0F).requiresCorrectToolForDrops().sound(SoundType.TUFF)), ModCreativeModeTab.MTIWTA_TAB);
     public static final RegistryObject<Block> POLISHED_TUFF_BRICKS_STAIRS = registerBlock("polished_tuff_bricks_stairs",
             ()-> new StairBlock(() -> ModBlocks.POLISHED_TUFF.get().defaultBlockState() ,
                     BlockBehaviour.Properties.of(Material.STONE).strength(1.5F, 6.0F).requiresCorrectToolForDrops().sound(SoundType.TUFF)),
@@ -109,9 +109,6 @@ public class ModBlocks {
             ()-> new WallBlock(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(1.5F, 6.0F).requiresCorrectToolForDrops().sound(SoundType.TUFF)), ModCreativeModeTab.MTIWTA_TAB);
 
-    public static final RegistryObject<Block> POLISHED_CALCITE = registerBlock("polished_calcite",
-            ()-> new Block(BlockBehaviour.Properties.of(Material.STONE)
-                    .strength(0.75F, 0.75F).requiresCorrectToolForDrops().sound(SoundType.CALCITE)), ModCreativeModeTab.MTIWTA_TAB);
     public static final RegistryObject<Block> CALCITE_STAIRS = registerBlock("calcite_stairs",
             ()-> new StairBlock(() -> ModBlocks.POLISHED_TUFF.get().defaultBlockState() ,
                     BlockBehaviour.Properties.of(Material.STONE).strength(0.75F, 0.75F).requiresCorrectToolForDrops().sound(SoundType.CALCITE)),
@@ -122,7 +119,7 @@ public class ModBlocks {
     public static final RegistryObject<Block> CALCITE_WALL = registerBlock("calcite_wall",
             ()-> new WallBlock(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(0.75F, 0.75F).requiresCorrectToolForDrops().sound(SoundType.CALCITE)), ModCreativeModeTab.MTIWTA_TAB);
-    public static final RegistryObject<Block> POLISHED_CALCITE_BRICKS = registerBlock("polished_calcite_bricks",
+    public static final RegistryObject<Block> POLISHED_CALCITE = registerBlock("polished_calcite",
             ()-> new Block(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(0.75F, 0.75F).requiresCorrectToolForDrops().sound(SoundType.CALCITE)), ModCreativeModeTab.MTIWTA_TAB);
     public static final RegistryObject<Block> POLISHED_CALCITE_STAIRS = registerBlock("polished_calcite_stairs",
@@ -135,6 +132,9 @@ public class ModBlocks {
     public static final RegistryObject<Block> POLISHED_CALCITE_WALL = registerBlock("polished_calcite_wall",
             ()-> new WallBlock(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(0.75F, 0.75F).requiresCorrectToolForDrops().sound(SoundType.CALCITE)), ModCreativeModeTab.MTIWTA_TAB);
+    public static final RegistryObject<Block> POLISHED_CALCITE_BRICKS = registerBlock("polished_calcite_bricks",
+            ()-> new Block(BlockBehaviour.Properties.of(Material.STONE)
+                    .strength(0.75F, 0.75F).requiresCorrectToolForDrops().sound(SoundType.CALCITE)), ModCreativeModeTab.MTIWTA_TAB);
     public static final RegistryObject<Block> POLISHED_CALCITE_BRICKS_STAIRS = registerBlock("polished_calcite_bricks_stairs",
             ()-> new StairBlock(() -> ModBlocks.POLISHED_TUFF.get().defaultBlockState() ,
                     BlockBehaviour.Properties.of(Material.STONE).strength(0.75F, 0.75F).requiresCorrectToolForDrops().sound(SoundType.CALCITE)),
@@ -145,6 +145,37 @@ public class ModBlocks {
     public static final RegistryObject<Block> POLISHED_CALCITE_BRICKS_WALL = registerBlock("polished_calcite_bricks_wall",
             ()-> new WallBlock(BlockBehaviour.Properties.of(Material.STONE)
                     .strength(0.75F, 0.75F).requiresCorrectToolForDrops().sound(SoundType.CALCITE)), ModCreativeModeTab.MTIWTA_TAB);
+
+    public static final RegistryObject<Block> SPRUCE_LADDER = registerBlock("spruce_ladder",
+            ()-> new LadderBlock(BlockBehaviour.Properties.of(Material.DECORATION).strength(0.4F).sound(SoundType.LADDER).noOcclusion()),
+            ModCreativeModeTab.MTIWTA_TAB);
+    public static final RegistryObject<Block> BIRCH_LADDER = registerBlock("birch_ladder",
+            ()-> new LadderBlock(BlockBehaviour.Properties.of(Material.DECORATION).strength(0.4F).sound(SoundType.LADDER).noOcclusion()),
+            ModCreativeModeTab.MTIWTA_TAB);
+    public static final RegistryObject<Block> JUNGLE_LADDER = registerBlock("jungle_ladder",
+            ()-> new LadderBlock(BlockBehaviour.Properties.of(Material.DECORATION).strength(0.4F).sound(SoundType.LADDER).noOcclusion()),
+            ModCreativeModeTab.MTIWTA_TAB);
+    public static final RegistryObject<Block> ACACIA_LADDER = registerBlock("acacia_ladder",
+            ()-> new LadderBlock(BlockBehaviour.Properties.of(Material.DECORATION).strength(0.4F).sound(SoundType.LADDER).noOcclusion()),
+            ModCreativeModeTab.MTIWTA_TAB);
+    public static final RegistryObject<Block> DARK_OAK_LADDER = registerBlock("dark_oak_ladder",
+            ()-> new LadderBlock(BlockBehaviour.Properties.of(Material.DECORATION).strength(0.4F).sound(SoundType.LADDER).noOcclusion()),
+            ModCreativeModeTab.MTIWTA_TAB);
+    public static final RegistryObject<Block> MANGROVE_LADDER = registerBlock("mangrove_ladder",
+            ()-> new LadderBlock(BlockBehaviour.Properties.of(Material.DECORATION).strength(0.4F).sound(SoundType.LADDER).noOcclusion()),
+            ModCreativeModeTab.MTIWTA_TAB);
+    public static final RegistryObject<Block> CRIMSON_LADDER = registerBlock("crimson_ladder",
+            ()-> new LadderBlock(BlockBehaviour.Properties.of(Material.DECORATION).strength(0.4F).sound(SoundType.LADDER).noOcclusion()),
+            ModCreativeModeTab.MTIWTA_TAB);
+    public static final RegistryObject<Block> WARPED_LADDER = registerBlock("warped_ladder",
+            ()-> new LadderBlock(BlockBehaviour.Properties.of(Material.DECORATION).strength(0.4F).sound(SoundType.LADDER).noOcclusion()),
+            ModCreativeModeTab.MTIWTA_TAB);
+    public static final RegistryObject<Block> IRON_LADDER = registerBlock("iron_ladder",
+            ()-> new LadderBlock(BlockBehaviour.Properties.of(Material.METAL).strength(5.0F, 6.0F).sound(SoundType.METAL).noOcclusion().requiresCorrectToolForDrops()),
+            ModCreativeModeTab.MTIWTA_TAB);
+    public static final RegistryObject<Block> CHAIN_LADDER = registerBlock("chain_ladder",
+            ()-> new LadderBlock(BlockBehaviour.Properties.of(Material.METAL).strength(5.0F, 6.0F).sound(SoundType.CHAIN).requiresCorrectToolForDrops().noOcclusion()),
+            ModCreativeModeTab.MTIWTA_TAB);
 
     private static <T extends Block>RegistryObject<T> registerBlock(String name, Supplier<T> block, CreativeModeTab tab){
         RegistryObject<T> toReturn = BLOCKS.register(name, block);

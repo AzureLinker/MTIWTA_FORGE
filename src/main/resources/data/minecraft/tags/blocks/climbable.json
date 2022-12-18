@@ -1,0 +1,15 @@
+{
+  "replace": false,
+  "values": [
+    "mtiwta:spruce_ladder",
+    "mtiwta:birch_ladder",
+    "mtiwta:jungle_ladder",
+    "mtiwta:acacia_ladder",
+    "mtiwta:iron_ladder",
+    "mtiwta:dark_oak_ladder",
+    "mtiwta:mangrove_ladder",
+    "mtiwta:crimson_ladder",
+    "mtiwta:warped_ladder",
+    "mtiwta:chain_ladder"
+  ]
+}

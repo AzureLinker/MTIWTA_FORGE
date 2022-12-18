@@ -1,6 +1,7 @@
 {
   "replace": false,
   "values": [
-
+    "mtiwta:iron_ladder",
+    "mtiwta:chain_ladder"
   ]
 }

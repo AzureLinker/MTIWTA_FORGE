@@ -2,7 +2,10 @@ package net.azuremods.mtiwta;
 
 import com.mojang.logging.LogUtils;
 import net.azuremods.mtiwta.block.ModBlocks;
+import net.azuremods.mtiwta.item.ModCreativeModeTab;
 import net.azuremods.mtiwta.item.ModItems;
+import net.minecraft.client.renderer.ItemBlockRenderTypes;
+import net.minecraft.client.renderer.RenderType;
 import net.minecraftforge.common.MinecraftForge;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
@@ -27,8 +30,11 @@ public class MTIWTA
         MinecraftForge.EVENT_BUS.register(this);
     }
 
+
+
     private void commonSetup(final FMLCommonSetupEvent event)
     {
+
     }
 
     @Mod.EventBusSubscriber(modid = MOD_ID, bus = Mod.EventBusSubscriber.Bus.MOD)
