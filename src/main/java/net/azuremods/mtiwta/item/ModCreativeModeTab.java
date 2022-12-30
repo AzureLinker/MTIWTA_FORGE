@@ -21,21 +21,21 @@ public class ModCreativeModeTab {
         }
         @Override
         public void fillItemList(NonNullList<ItemStack> itemStacks) {
-            Object[] listOfBlocks =
-                    ModBlocks.BLOCKS.getEntries().stream().map(RegistryObject::get).toArray();
+
+            Object[] listOfItems =
+                    ModItems.ITEMS.getEntries().stream().map(RegistryObject::get).toArray();
             List<Item> items = new ArrayList<Item>();
-            for (int i = 0; i < listOfBlocks.length;i++){
-                items.add(((Block)(listOfBlocks[i])).asItem());
+            for (int y = 0;y < listOfItems.length;y++){
+                items.add(((Item)(listOfItems[y])));
             }
             itemStacks.clear();
 
-            for (Item item : items){
-                if (item.getCreativeTabs().contains(MTIWTA_TAB)){
+            for (Item item : items) {
+                if (item.getCreativeTabs().contains(MTIWTA_TAB)) {
                     itemStacks.add(new ItemStack(item));
                 }
             }
         }
-
     };
 
 

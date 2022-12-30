@@ -1,0 +1,15 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "ingredients": [
+    {
+      "tag": "minecraft:wool"
+    },
+    {
+      "item": "mtiwta:diamond_shears"
+    }
+  ],
+  "result": {
+    "count": 4,
+    "item": "minecraft:string"
+  }
+}

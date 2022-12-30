@@ -47,5 +47,12 @@
   "block.mtiwta.iron_ladder": "Iron Ladder",
   "block.mtiwta.chain_ladder": "Chain Ladder",
 
+  "item.mtiwta.copper_sword": "Copper Sword",
+  "item.mtiwta.copper_shovel": "Copper Shovel",
+  "item.mtiwta.copper_pickaxe": "Copper Pickaxe",
+  "item.mtiwta.copper_axe": "Copper Axe",
+  "item.mtiwta.copper_hoe": "Copper Hoe",
+  "item.mtiwta.diamond_shears": "Diamond Shears",
+
   "itemGroup.mtiwta_tab": "MTIWTA"
 }
